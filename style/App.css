@@ -1,0 +1,290 @@
+.box-thought {
+    background-color: fff;
+    border-radius: 10px 10px;
+    overflow: hidden;
+    height: 325px;
+    width: 280px;
+    max-height: 35vh;
+    -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    margin: 20px;
+}
+
+.grid-thought {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid-thought > div {
+    flex-basis: calc(33.33% - 40px);
+}
+
+.img-thought {
+  height: 60%;
+  overflow: hidden;
+  text-align: center;
+  background: #6CADDC;
+  width: 60%;
+}
+
+
+
+.board{
+    margin: 1em;
+    /* background-color: #6f489e !important; */
+    border-radius: 24px!important;
+    
+    /* background-color: #abb4aa !important; */
+
+}
+.App {
+    text-align: center;
+}
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  
+  .App-header {
+    background-color: rgb(34, 34, 34);
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  .navbar {
+   
+    margin-top: auto;
+    
+  }
+  #top-filler {
+    margin-bottom: auto;
+  }
+  
+  #nav-container {
+    align-items: flex-end;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .bubble {
+    border-radius: 4px;
+    background-color: #00040c!important;
+    border-color: black!important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .bubble span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .bubble span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .bubble:hover span {
+    padding-right: 25px;
+  }
+  
+  .bubble:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .jumbotron-home{
+    background-color: rgb(155, 209, 243)!important;
+    color: white!important;
+    font-size: 40px;
+  }
+
+  .bubble-board-jumbo{
+    background-color: rgb(219, 189, 226)!important;
+    color: white!important;
+    font-size: 40px;
+  }
+/* Login page */
+
+  .loginCard { 
+    margin: 50px 100px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+    
+.greetingWrapper {
+  margin-top: 10%;
+  
+}
+.loginWrapper{
+  flex: 1;
+  text-align: center;
+  border-color: blue;
+}
+
+.loginTitle {
+  padding-top: 10px;
+}
+
+.thoughtBubbleTitle {
+  padding-top: 10px
+} 
+
+.logo {
+  height: 150px;
+  width: 150px;
+} 
+
+.Loginbutton {
+  padding: 20px 0px 20px 0px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  margin: 2px;
+  background-color: rgb(86, 181, 236);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* h6 span {
+  display: block;
+} */
+
+/* .signupText {
+  text-align: center;
+} */
+
+/* .greetingText {
+  height: 20%;
+  display: inline-flex;
+  position: relative;
+  width: 40%;
+}
+
+.promptText {
+  display: inline-flex;
+  /* margin-left: auto; 
+  text-align: center;
+} */
+
+/* .promptTextBottom {
+  display:inline-flex;
+  padding-left: 10px;
+}
+
+  .vl {
+      border-left:solid green;
+      height: 100px;
+      position: relative;
+      padding-right: 0%;
+
+  } 
+
+  /* .githubText {
+    display: inline-block;
+    padding-left: 10%;
+    position: relative;
+    top: 75%;
+  } */
+
+  
+
+  
+  .remove {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    cursor: pointer;
+  }
+  
+  .remove:hover {
+    color: rgb(223, 50, 50);
+  }
+  /* .date{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    cursor: pointer;
+  } */
+  *, *:before, *:after {
+    box-sizing: border-box;
+    margin:5;
+    padding:0;
+  }
+  
+  .wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eaec;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .shadow {
+    padding: 6px;
+  }
+  .shadow__box {
+    width: 50px;
+    height: 50px;
+    /* position: relative; */
+    border-radius: 15%;
+    background:#5fbbec;
+     margin: 5px; 
+    margin-bottom: 20px;
+  }
+  .shadow__box#drop-shadow {
+    box-shadow:  8px 8px 19px #4f9bc4, 
+             -8px -8px 19px #6fdbff;
+}
+  
+  /* .card{
+    border-radius: 10px !important;
+    border : 1px solid rgb(128, 62, 0);
+    width : 280px !important
+  } */
+
+
+  .errormsg{
+    background-color: rgb(206, 142, 142);
+    padding : 10px;
+    border-radius: 10px;
+    color: white;
+  }
